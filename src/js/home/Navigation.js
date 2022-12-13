@@ -12,11 +12,8 @@ function Navigation() {
     <div className="nav-cont">
         <nav className="navbar">
             <a><FontAwesomeIcon icon={faHome} className="home-btn"  /></a>
-<<<<<<< HEAD
            <Link to="/search"> <FontAwesomeIcon icon={faSearch} className="search-btn" /> </Link>
-=======
             <FontAwesomeIcon icon={faSearch} className="search-btn" />
->>>>>>> 3c3db15993f864fe16120d39473003bff3c06355
            <Link to ="/player"><FontAwesomeIcon icon={faMusic} className="music-btn" /> </Link>
         </nav>
     </div>
